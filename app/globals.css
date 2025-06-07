@@ -1,10 +1,19 @@
 @import "tailwindcss";
 
+:root {
+  --color-primary: oklch(55.8% 0.288 302.321);
+}
+
 @theme inline {
   --font-sans: var(--font-public-sans, sans-serif);
+  --color-primary: var(--color-primary);
 }
 
 body {
   @apply bg-gradient-to-br from-gray-900 to-gray-800 text-slate-300 font-sans;
   @apply min-h-screen min-w-full;
+}
+
+html {
+  @apply bg-gray-900;
 }
