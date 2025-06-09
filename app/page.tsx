@@ -1,90 +1,33 @@
 "use client";
 
-import { Code, Dot, ExternalLink, Github, Lightbulb } from "lucide-react";
+import { Code, ExternalLink, Github, Lightbulb } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { Navbar } from "@/_components/navbar";
+import { Button } from "./_components/button";
+import { WorkExperienceList } from "./_components/work-experience-list/work-experience-list";
+import { ArticleList } from "./_components/article-list/article-list";
 
 export default function Home() {
   const renderHeader = () => {
     return (
-      <header className="w-[60%] leading-none sticky top-0">
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold animate-fade-in-up">
+      <header className="w-full lg:w-[60%] lg:sticky top-0">
+        <h1 className="text-5xl xl:text-7xl font-bold text-slate-300 leading-none">
           Gbenga Anifowoshe
         </h1>
-        <p className="mb-4 mt-1 animate-fade-in-up animation-delay-500 text-cyan-400">
+        <p className="mb-4 mt-1 animation-delay-500 text-cyan-400 leading-none">
           Software Engineer
         </p>
 
-        <p className="w-2/3 text-sm mb-10">
+        <p className="w-full lg:w-2/3 mb-10 leading-normal">
           Experienced Fullstack Software Engineer with over 6 years of hands-on
           experience in building scalable, high- performance web applications
           and infrastructure
         </p>
 
-        <a className="inline-flex items-center px-4 py-2 cursor-pointer bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-semibold text-sm rounded-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out animate-fade-in-up animation-delay-1000">
+        <Button>
           <Code className="mr-2" /> View side projects
-        </a>
+        </Button>
       </header>
-    );
-  };
-
-  const renderWorkExperience = () => {
-    return (
-      <a className="flex gap-x-5 cursor-pointer">
-        <div className="w-36 h-36 bg-gray-800 rounded-sm inset-shadow-sm" />
-        <div className="flex-1">
-          <h6 className="flex items-center text-cyan-400 font-bold">
-            Senior Software Engineer <Dot /> Wunderflats{" "}
-            <ExternalLink className="ml-2" size={16} />
-          </h6>
-          <p className="text-sm mt-1">
-            Build and maintain critical components used to construct Klaviyo’s
-            frontend, across the whole product. Work closely with
-            cross-functional teams, including developers, designers, and product
-            managers, to implement and advocate for best practices in web
-            accessibility.
-          </p>
-          <div className="mt-2">
-            <span className="px-4 py-1 bg-cyan-800/40 text-cyan-200 rounded-sm inset-shadow-sm text-xs">
-              React
-            </span>
-          </div>
-        </div>
-      </a>
-    );
-  };
-
-  const renderArticle = () => {
-    return (
-      <a className="flex gap-x-5 cursor-pointer items-center">
-        <div className="w-36 h-20 bg-gray-800 rounded-sm inset-shadow-sm" />
-        <div className="flex-1">
-          <h6 className="flex items-center text-cyan-400 font-bold">2024</h6>
-          <p className="text-sm mt-1 flex items-center">
-            5 Common Accessibility Pitfalls and How to Avoid them{" "}
-            <ExternalLink className="ml-2" size={14} />
-          </p>
-        </div>
-      </a>
-    );
-  };
-
-  const renderRightSection = () => {
-    return (
-      <div className="w-[40%]">
-        <ol>
-          <li>{renderWorkExperience()}</li>
-        </ol>
-        <a className="mt-2 inline-flex items-center px-4 py-2 cursor-pointer bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-semibold text-sm rounded-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out animate-fade-in-up animation-delay-1000">
-          View resume <ExternalLink className="ml-2" size={14} />
-        </a>
-
-        <ol className="mt-40">
-          <li>{renderArticle()}</li>
-        </ol>
-        <a className="mt-2 inline-flex items-center px-4 py-2 cursor-pointer bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-semibold text-sm rounded-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out animate-fade-in-up animation-delay-1000">
-          View all articles <ExternalLink className="ml-2" size={14} />
-        </a>
-      </div>
     );
   };
 
@@ -103,26 +46,24 @@ export default function Home() {
     );
   };
 
-  const renderNavbar = () => {
-    return (
-      <nav className="fixed top-0 left-0 w-full flex items-center py-4 px-6">
-        <span className="italic">by</span>
-        <div className="bg-gray-500 w-10 h-10 rounded-full ml-3"></div>
-      </nav>
-    );
-  };
-
   return (
     <>
-      {renderNavbar()}
-      <div className="lg:w-[1400px] mx-auto pt-18">
-        <div className="flex gap-x-4">
+      <Navbar />
+      <div className="pt-18 px-6 md:px-12 xl:w-[1396px] mx-auto">
+        <div className="flex flex-col gap-y-24 lg:flex-row lg:gap-x-4 lg:gap-y-0">
           {renderHeader()}
-          {renderRightSection()}
+
+          <div className="w-full lg:w-[40%]">
+            <WorkExperienceList />
+
+            <div className="mt-20 lg:t-40">
+              <ArticleList />
+            </div>
+          </div>
         </div>
 
         {/* Projects Section */}
-        <section id="projects" className="mt-44 lg:w-[1400px] mx-auto relative">
+        {/* <section id="projects" className="mt-44 lg:w-[1400px] mx-auto relative">
           <div className="flex items-center mb-12 justify-center">
             <hr className="mr-2 w-10" />
             <h6 className="text-3xl font-medium text-center animate-fade-in-up flex items-center">
@@ -134,7 +75,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard />
           </div>
-        </section>
+        </section> */}
 
         {renderFooter()}
       </div>
