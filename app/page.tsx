@@ -7,6 +7,7 @@ import { WorkExperienceList } from "@/_components/work-experience-list/work-expe
 import { ArticleList } from "@/_components/article-list/article-list";
 import projects from "@/projects.json";
 import { ProjectCard } from "@/_components/project-card";
+import { Socials } from "./_components/socials";
 
 export default function Home() {
   const renderHeader = () => {
@@ -19,11 +20,15 @@ export default function Home() {
           Software Engineer
         </p>
 
-        <p className="w-full lg:w-2/3 mb-10 leading-normal">
+        <p className="w-full lg:w-2/3 mb-6 leading-normal">
           Experienced Fullstack Software Engineer with over 6 years of hands-on
           experience in building scalable, high- performance web applications
           and infrastructure
         </p>
+
+        <section className="mb-10">
+          <Socials />
+        </section>
 
         <Button>
           <Code className="mr-2" /> View side projects

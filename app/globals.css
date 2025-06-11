@@ -2,6 +2,7 @@
 
 :root {
   --color-primary: oklch(60.9% 0.126 221.723);
+  --color-primary-dark: oklch(52% 0.105 223.128);
   --color-background: oklch(21% 0.034 264.665);
   --color-light-background: oklch(27.8% 0.033 256.848);
 }
@@ -9,6 +10,7 @@
 @theme inline {
   --font-sans: var(--font-public-sans, sans-serif);
   --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
   --color-background: var(--color-background);
   --color-light-background: var(--color-light-background);
 }
