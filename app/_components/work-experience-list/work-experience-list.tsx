@@ -13,7 +13,7 @@ export const WorkExperienceList = () => {
           <li key={i}>
             <ListItem
               leftSection={
-                <span className="uppercase flex items-center text-sm">
+                <span className="uppercase flex items-center text-xs">
                   {w.startPeriod}
                   <div className="w-3 border-b border-slate-400 mx-2" />
                   {w.endPeriod}

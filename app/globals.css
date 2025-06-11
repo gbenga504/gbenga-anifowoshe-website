@@ -3,7 +3,7 @@
 :root {
   --color-primary: oklch(60.9% 0.126 221.723);
   --color-background: oklch(21% 0.034 264.665);
-  --color-light-background: oklch(37.3% 0.034 259.733);
+  --color-light-background: oklch(27.8% 0.033 256.848);
 }
 
 @theme inline {
