@@ -19,6 +19,7 @@ export const ArticleList = () => {
                     width={144}
                     height={80}
                     alt="article"
+                    className="w-36 h-20 rounded-sm object-cover"
                   />
                 )
               }
@@ -30,7 +31,11 @@ export const ArticleList = () => {
         ))}
       </ol>
 
-      <Button>
+      <Button
+        target="_blank"
+        rel="noreferrer"
+        href="https://medium.com/@anifowoshedavidgbenga"
+      >
         View all articles <ExternalLink className="ml-2" size={14} />
       </Button>
     </Fragment>

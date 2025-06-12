@@ -36,7 +36,7 @@ export const WorkExperienceList = () => {
         ))}
       </ol>
 
-      <Button>
+      <Button target="_blank" rel="noreferrer" href="/resume.pdf">
         View resume <ExternalLink className="ml-2" size={14} />
       </Button>
     </Fragment>
