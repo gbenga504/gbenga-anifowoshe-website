@@ -10,7 +10,7 @@ export const WorkExperienceList = () => {
     <Fragment>
       <ol>
         {data.map((w, i) => (
-          <li key={i}>
+          <li key={i} className="mb-12">
             <ListItem
               leftSection={
                 <span className="uppercase flex items-center text-xs">
@@ -36,7 +36,7 @@ export const WorkExperienceList = () => {
         ))}
       </ol>
 
-      <Button className="mt-6">
+      <Button>
         View resume <ExternalLink className="ml-2" size={14} />
       </Button>
     </Fragment>

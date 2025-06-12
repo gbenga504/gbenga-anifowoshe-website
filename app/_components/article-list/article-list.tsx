@@ -10,7 +10,7 @@ export const ArticleList = () => {
     <Fragment>
       <ol>
         {data.map((a, i) => (
-          <li key={i}>
+          <li key={i} className="mb-12">
             <ListItem
               leftSection={
                 a.imageLink && (
@@ -30,7 +30,7 @@ export const ArticleList = () => {
         ))}
       </ol>
 
-      <Button className="mt-6">
+      <Button>
         View all articles <ExternalLink className="ml-2" size={14} />
       </Button>
     </Fragment>
