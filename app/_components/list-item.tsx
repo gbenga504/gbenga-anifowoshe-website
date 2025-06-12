@@ -15,7 +15,12 @@ export const ListItem: React.FC<IListItemProps> = ({
   href,
 }) => {
   return (
-    <a className="flex flex-col md:flex-row gap-x-5 cursor-pointer" href={href}>
+    <a
+      className="flex flex-col md:flex-row gap-x-5 cursor-pointer"
+      target="_blank"
+      rel="noreferrer"
+      href={href}
+    >
       <div className="w-36 rounded-sm inset-shadow-sm">{leftSection}</div>
       <div className="flex-1">
         <h6 className="flex items-center text-slate-300">

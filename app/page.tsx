@@ -12,7 +12,7 @@ import { Socials } from "./_components/socials";
 export default function Home() {
   const renderHeader = () => {
     return (
-      <header className="w-full lg:w-[60%] lg:sticky top-0">
+      <header className="w-full lg:w-[60%] lg:sticky lg:top-0 lg:pt-18 lg:max-h-screen">
         <h1 className="text-5xl xl:text-7xl font-bold text-slate-300 leading-none">
           Gbenga Anifowoshe
         </h1>
@@ -30,7 +30,7 @@ export default function Home() {
           <Socials />
         </section>
 
-        <Button>
+        <Button href="#projects">
           <Code className="mr-2" /> View side projects
         </Button>
       </header>
@@ -82,11 +82,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="pt-18 px-6 md:px-12 xl:w-[1396px] mx-auto">
+      <div className="px-6 md:px-12 xl:w-[1396px] mx-auto">
         <div className="flex flex-col gap-y-24 lg:flex-row lg:gap-x-4 lg:gap-y-0">
           {renderHeader()}
 
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full lg:pt-18 lg:w-[40%]">
             <WorkExperienceList />
 
             <div className="mt-20 lg:t-40">
