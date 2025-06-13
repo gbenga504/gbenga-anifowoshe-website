@@ -8,6 +8,7 @@ import { ArticleList } from "@/_components/article-list/article-list";
 import projects from "@/projects.json";
 import { ProjectCard } from "@/_components/project-card";
 import { Socials } from "./_components/socials";
+import { Header } from "./_components/header";
 
 export default function Home() {
   const renderHeader = () => {
@@ -40,13 +41,7 @@ export default function Home() {
   const renderProjects = () => {
     return (
       <section id="projects" className="mt-20 lg:mt-44">
-        <div className="flex items-center mb-6 lg:mb-12 justify-center">
-          <hr className="mr-2 w-10" />
-          <h6 className="text-xl font-semibold text-center animate-fade-in-up flex items-center">
-            My Side Projects
-          </h6>
-          <hr className="ml-2 w-10" />
-        </div>
+        <Header title="Hobby Projects" className="mb-6 lg:mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, i) => (
@@ -87,9 +82,11 @@ export default function Home() {
           {renderHeader()}
 
           <div className="w-full lg:pt-18 lg:w-[40%]">
+            <Header title="Experiences" className="mb-6" />
             <WorkExperienceList />
 
             <div className="mt-20 lg:t-40">
+              <Header title="Experiences" className="mb-6" />
               <ArticleList />
             </div>
           </div>
