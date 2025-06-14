@@ -4,7 +4,7 @@
     "company": "Wunderflats",
     "startPeriod": "July 2024",
     "endPeriod": "present",
-    "description": "Working on building the future of payments and invoicing for the company using GCP , NodeJs, GraphQL, Typescript, ReactJs, MongoDB & Kubernetes. My daily activities include contributing to the backend and frontend and owning infrastructural processes.",
+    "description": "Working on building the future of payments and invoicing for the company using GCP , NodeJs, GraphQL, Typescript, ReactJs, MongoDB & Kubernetes. My daily activities include contributing to the backend, frontend and infrastructural processes.",
     "tools": [
       "React",
       "Typescript",
@@ -21,7 +21,7 @@
     "company": "Wunderflats",
     "startPeriod": "2021",
     "endPeriod": "July 2024",
-    "description": "Built a better experience for users across Europe with the Bookings and Payment team. I also drive and implement bookings and payments, product, and engineering initiatives",
+    "description": "Built a better experience for users across Europe with the Bookings and Payment team. I also implement bookings and payments, product, and engineering initiatives",
     "tools": ["React", "Kubernetes", "Grafana", "Terraform"],
     "link": "https://wunderflats.com"
   },
@@ -30,7 +30,7 @@
     "company": "Prunedge",
     "startPeriod": "2020",
     "endPeriod": "2021",
-    "description": "Built a couple of client projects while leading small front-end (4 members) teams within the organization. I also drafted the architecture of front-end apps that other engineers built on",
+    "description": "Built a couple of client projects while leading small front-end (4 members) teams within the organization. I also drafted the architecture of some front-end apps that other engineers built on",
     "tools": ["React", "GraphQL"],
     "link": "https://prunedge.com"
   },
@@ -39,7 +39,7 @@
     "company": "Foundation Labs",
     "startPeriod": "2019",
     "endPeriod": "Dec 2019",
-    "description": "Spent 80% of my time working on ReactNative apps for our clients and the other 20% on client- side React.Js web apps. Here, I primarily worked with senior engineers to optimize and build out mobile application screens",
+    "description": "Spent 80% of my time working on ReactNative apps for our clients and the other 20% on client-side React.Js web apps. Here, I primarily worked with senior engineers to optimize and build out mobile application screens",
     "tools": ["React-Native", "GraphQL", "ReactJs", "Aws amplify"],
     "link": "https://foundationlabs.io"
   },

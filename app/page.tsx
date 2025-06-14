@@ -19,10 +19,14 @@ export default function Home() {
           Software Engineer
         </p>
 
+        <p className="w-full lg:w-2/3 mb-3 leading-normal">
+          Experienced Software Engineer working on payments, invoicing and data
+          heavy applications to mention a few. I mostly work with frontend &
+          backend tech but sometimes find myself terraform(ing)
+        </p>
         <p className="w-full lg:w-2/3 mb-6 leading-normal">
-          Experienced Fullstack Software Engineer with over 6 years of hands-on
-          experience in building scalable, high- performance web applications
-          and infrastructure
+          I also love investing and cash flow statements, also recently found
+          love in playing snooker 😊.
         </p>
 
         <section className="mb-10">
