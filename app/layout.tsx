@@ -9,7 +9,7 @@ const publicSans = Public_Sans({
 
 export const metadata: Metadata = {
   title: "Gbenga Anifowoshe",
-  description: "I build stuff",
+  description: "Personal website where I showcase stuff I build",
 };
 
 export default function RootLayout({

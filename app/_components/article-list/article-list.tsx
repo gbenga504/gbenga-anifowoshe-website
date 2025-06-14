@@ -19,7 +19,7 @@ export const ArticleList = () => {
                     width={144}
                     height={80}
                     alt="article"
-                    className="w-36 h-20 rounded-sm object-cover"
+                    className="w-36 h-20 mb-3 rounded-sm object-cover lg:mb-0"
                   />
                 )
               }

@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-export const Header: React.FC<{ title: string; className?: string }> = ({
+export const SectionHeader: React.FC<{ title: string; className?: string }> = ({
   title,
   className,
 }) => {

@@ -6,12 +6,12 @@ import { ArticleList } from "@/_components/article-list/article-list";
 import projects from "@/projects.json";
 import { ProjectCard } from "@/_components/project-card";
 import { Socials } from "./_components/socials";
-import { Header } from "./_components/header";
+import { SectionHeader } from "./_components/section-header";
 
 export default function Home() {
   const renderHeader = () => {
     return (
-      <header className="w-full lg:w-[60%] lg:sticky lg:top-0 lg:pt-18 lg:max-h-screen">
+      <header className="w-full pt-18 lg:w-[60%] lg:sticky lg:top-0 lg:max-h-screen">
         <h1 className="text-5xl xl:text-7xl font-bold text-slate-300 leading-none">
           Gbenga Anifowoshe
         </h1>
@@ -39,7 +39,7 @@ export default function Home() {
   const renderProjects = () => {
     return (
       <section id="projects" className="mt-20 lg:mt-44">
-        <Header title="Hobby Projects" className="mb-6 lg:mb-12" />
+        <SectionHeader title="Hobby Projects" className="mb-6 lg:mb-12" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, i) => (
@@ -67,7 +67,24 @@ export default function Home() {
         </p>
         <p className="mt-1">
           Built with <span className="text-cyan-400">Next.js</span> and{" "}
-          <span className="text-cyan-400">TailwindCss</span>
+          <span className="text-cyan-400">TailwindCss</span> and inspired by{" "}
+          <a
+            className="text-cyan-400"
+            target="_blank"
+            rel="noreferrer"
+            href="https://brittanychiang.com/"
+          >
+            Brittany Chiang
+          </a>{" "}
+          and{" "}
+          <a
+            className="text-cyan-400"
+            target="_blank"
+            rel="noreferrer"
+            href="https://overreacted.io/"
+          >
+            Dan&apos;s overreacted
+          </a>
         </p>
       </footer>
     );
@@ -81,11 +98,11 @@ export default function Home() {
           {renderHeader()}
 
           <div className="w-full lg:pt-18 lg:w-[40%]">
-            <Header title="Experiences" className="mb-6" />
+            <SectionHeader title="Experiences" className="mb-6" />
             <WorkExperienceList />
 
             <div className="mt-20 lg:t-40">
-              <Header title="Articles" className="mb-6" />
+              <SectionHeader title="Articles" className="mb-6" />
               <ArticleList />
             </div>
           </div>
