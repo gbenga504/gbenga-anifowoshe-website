@@ -30,7 +30,7 @@ export default function Home() {
         </section>
 
         <Button href="#projects">
-          <Code className="mr-2" /> View side projects
+          <Code className="mr-2" /> View hobby projects
         </Button>
       </header>
     );
