@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/gbenga504/gbenga-anifowoshe-website/main/app/icon.png" width="100" />
+</div>
+<h1 align="center">
+  <a href="https://gbengaanifowoshe.com" target="_blank">gbengaanifowoshe.com</a>
+</h1>
+<p align="center">
+  <a href="https://app.netlify.com/projects/gbengaanifowoshe/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/53dd094a-b944-462c-ad48-1eeae1f65995/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
+<p align="center">
+  This is the code base for <a href="https://gbengaanifowoshe.com" target="_blank">my personal website</a> built with NextJs and TailwindCss and hosted on Netlify. Also, this is largely inspired by <a href="https://brittanychiang.com" target="_blank">Brittany chiang</a> and <a href="https://overreacted.io/" target="_blank">Dan Abramhov's overreacted</a> website designs.
+</p>
 
-## Getting Started
+## 🛠 Installation & Set Up
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repo
+2. Install all dependencies by running `npm install`
+3. Run the application locally using `npm run dev`
