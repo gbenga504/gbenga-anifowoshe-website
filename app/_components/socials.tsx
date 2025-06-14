@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Braces, Github, Linkedin, Twitter } from "lucide-react";
 
 export const Socials: React.FC = () => {
   return (
@@ -28,6 +28,15 @@ export const Socials: React.FC = () => {
         href="https://www.linkedin.com/in/gbenga-anifowoshe-78bb83106/"
       >
         <Linkedin size={20} />
+      </a>
+
+      <a
+        className="cursor-pointer text-gray-400 hover:text-primary"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/gbenga504/gbenga-anifowoshe-website"
+      >
+        <Braces size={20} />
       </a>
     </div>
   );
