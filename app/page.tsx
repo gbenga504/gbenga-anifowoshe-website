@@ -1,9 +1,9 @@
 import { Code } from "lucide-react";
 import { Navbar } from "@/_components/navbar";
 import { Button } from "@/_components/button";
-import { WorkExperienceList } from "@/_components/work-experience-list/work-experience-list";
-import { ArticleList } from "@/_components/article-list/article-list";
-import projects from "@/projects.json";
+import { WorkExperienceList } from "@/_components/work-experience-list";
+import { ArticleList } from "@/_components/article-list";
+import projects from "@/_data/projects.json";
 import { ProjectCard } from "@/_components/project-card";
 import { Socials } from "./_components/socials";
 import { SectionHeader } from "./_components/section-header";

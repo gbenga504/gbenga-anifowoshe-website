@@ -1,8 +1,8 @@
-import { Tag } from "../tag";
-import { ListItem } from "../list-item";
-import data from "./data.json";
+import { Tag } from "./tag";
+import { ListItem } from "./list-item";
+import data from "@/_data/work-experience.json";
 import { Fragment } from "react";
-import { Button } from "../button";
+import { Button } from "./button";
 import { ExternalLink } from "lucide-react";
 
 export const WorkExperienceList = () => {
