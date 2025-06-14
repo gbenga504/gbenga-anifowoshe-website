@@ -4,7 +4,7 @@ export const Socials: React.FC = () => {
   return (
     <div className="flex gap-x-4">
       <a
-        className="cursor-pointer text-gray-400 hover:text-primary"
+        className="cursor-pointer text-gray-400 hover:text-cyan-400 focus:text-cyan-400"
         target="_blank"
         rel="noreferrer"
         href="https://github.com/gbenga504"
@@ -13,7 +13,7 @@ export const Socials: React.FC = () => {
       </a>
 
       <a
-        className="cursor-pointer text-gray-400 hover:text-primary"
+        className="cursor-pointer text-gray-400 hover:text-cyan-400 focus:text-cyan-400"
         target="_blank"
         rel="noreferrer"
         href="https://x.com/David_Ani_s"
@@ -22,7 +22,7 @@ export const Socials: React.FC = () => {
       </a>
 
       <a
-        className="cursor-pointer text-gray-400 hover:text-primary"
+        className="cursor-pointer text-gray-400 hover:text-cyan-400 focus:text-cyan-400"
         target="_blank"
         rel="noreferrer"
         href="https://www.linkedin.com/in/gbenga-anifowoshe-78bb83106/"
@@ -31,7 +31,7 @@ export const Socials: React.FC = () => {
       </a>
 
       <a
-        className="cursor-pointer text-gray-400 hover:text-primary"
+        className="cursor-pointer text-gray-400 hover:text-cyan-400 focus:text-cyan-400"
         target="_blank"
         rel="noreferrer"
         href="https://github.com/gbenga504/gbenga-anifowoshe-website"

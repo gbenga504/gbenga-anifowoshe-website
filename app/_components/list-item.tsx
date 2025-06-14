@@ -16,14 +16,14 @@ export const ListItem: React.FC<IListItemProps> = ({
 }) => {
   return (
     <a
-      className="flex flex-col md:flex-row gap-x-5 cursor-pointer"
+      className="flex flex-col md:flex-row gap-x-5 cursor-pointer hover:[&_.title]:text-cyan-400 focus:[&_.title]:text-cyan-400"
       target="_blank"
       rel="noreferrer"
       href={href}
     >
       <div className="w-36 rounded-sm inset-shadow-sm">{leftSection}</div>
       <div className="flex-1">
-        <h6 className="flex items-center text-slate-300">
+        <h6 className="title flex items-center text-slate-300">
           {title} <ExternalLink className="ml-2" size={16} />
         </h6>
         <main className="text-sm mt-1">{description}</main>
