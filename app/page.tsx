@@ -1,5 +1,3 @@
-"use client";
-
 import { Code } from "lucide-react";
 import { Navbar } from "@/_components/navbar";
 import { Button } from "@/_components/button";
@@ -52,6 +50,7 @@ export default function Home() {
               tools={project.tools}
               githubLink={project.githubLink}
               projectLink={project.projectLink}
+              year={project.year}
             />
           ))}
         </div>
@@ -86,7 +85,7 @@ export default function Home() {
             <WorkExperienceList />
 
             <div className="mt-20 lg:t-40">
-              <Header title="Experiences" className="mb-6" />
+              <Header title="Articles" className="mb-6" />
               <ArticleList />
             </div>
           </div>

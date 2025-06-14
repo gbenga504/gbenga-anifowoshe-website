@@ -1,9 +1,78 @@
 [
   {
-    "title": "Screentime 2.0",
-    "description": "Starry Station android app feature that provided users with the ability to easily filter content, pause the internet, and even create custom rules for blocking apps like Facebook and Twitter right from their phones.",
-    "tools": ["React", "Typescript"],
-    "githubLink": "https://github.com",
-    "projectLink": "https://screentime.com"
+    "title": "Walk reminder",
+    "description": "A simple yet effective Chrome extension designed for developers and desk workers to promote regular movement and well-being during long hours at the computer.",
+    "tools": [
+      "Typescript",
+      "Javascript",
+      "HTML",
+      "Css",
+      "Vite",
+      "ChromeExtension"
+    ],
+    "githubLink": "https://github.com/gbenga504/walk-reminder",
+    "year": 2025
+  },
+  {
+    "title": "Travel Assistant",
+    "description": "Built an example personal AI travel assistant",
+    "tools": [
+      "Golang",
+      "Typescript",
+      "ReactJs",
+      "RemixJs",
+      "TailwindCss",
+      "Scss",
+      "GeminiAI",
+      "MongoDB"
+    ],
+    "githubLink": "https://github.com/gbenga504/travel-assistant",
+    "year": 2025
+  },
+  {
+    "title": "Musicport",
+    "description": "A music app that allows port music from one streaming platform to another. Server for frontend was built from scratch without reliance on Frameworks. It was de-commisioned but source code is still available",
+    "tools": [
+      "Typescript",
+      "ReactJs",
+      "TailwindCss",
+      "NodeJs",
+      "Docker",
+      "MongoDB",
+      "Webpack"
+    ],
+    "githubLink": "https://github.com/gbenga504/music-port",
+    "year": 2023
+  },
+  {
+    "title": "StyleX inspired atomic css",
+    "description": "Inspired by Meta's stylex css library, I built a quick example of an atomic css library from scratch with codesandbox. It is super lightweight but yet powerful",
+    "tools": ["Typescript", "ReactJs", "Codesandbox"],
+    "projectLink": "https://codesandbox.io/p/sandbox/stylesheet-9n44f",
+    "year": 2023
+  },
+  {
+    "title": "js-docusaurus",
+    "description": "Opinionated comment analyzer for Javascript and Typescript projects",
+    "tools": ["Javascript", "ReactJs"],
+    "githubLink": "https://github.com/gbenga504/js-docusaurus",
+    "projectLink": "https://marketplace.visualstudio.com/items?itemName=gbenga504.js-docusaurus",
+    "year": 2020
+  },
+  {
+    "title": "Javico",
+    "description": "Collaborate on code, share the link and get instant code reviews from others",
+    "tools": ["React", "Typescript", "MaterialUI"],
+    "githubLink": "https://github.com/gbenga504/javico",
+    "projectLink": "https://javico.netlify.app/",
+    "year": 2020
+  },
+  {
+    "title": "Kunyora",
+    "description": "A flexible and disposable Rest Client for Javascript applications. This Javacsript library also includes React extension",
+    "tools": ["Javascript", "ReactJs"],
+    "githubLink": "https://github.com/kunyora/kunyora",
+    "projectLink": "https://kunyora.github.io/kunyora/",
+    "year": 2018
   }
 ]
