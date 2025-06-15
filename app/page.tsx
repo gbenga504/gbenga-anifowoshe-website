@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="text-5xl xl:text-7xl font-bold text-slate-300 leading-none">
           Gbenga Anifowoshe
         </h1>
-        <p className="mb-4 mt-1 animation-delay-500 text-cyan-400 leading-none">
+        <p className="mb-4 mt-1 text-cyan-400 leading-none">
           Software Engineer
         </p>
 
