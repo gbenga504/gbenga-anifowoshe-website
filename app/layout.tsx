@@ -9,7 +9,26 @@ const publicSans = Public_Sans({
 
 export const metadata: Metadata = {
   title: "Gbenga Anifowoshe",
-  description: "Personal website where I showcase stuff I build",
+  description:
+    "Personal website where I showcase my work, products and passion",
+  creator: "Gbenga Anifowoshe",
+  openGraph: {
+    locale: "en_US",
+    siteName: "Gbenga Anifowoshe",
+    type: "website",
+    title: "Gbenga Anifowoshe",
+    description:
+      "Personal website where I showcase my work, products and passion",
+    url: "https://gbengaanifowoshe.com",
+    images: "https://gbengaanifowoshe.com/icon.png",
+  },
+  twitter: {
+    title: "Gbenga Anifowoshe",
+    description:
+      "Personal website where I showcase my work, products and passion",
+    images: "https://gbengaanifowoshe.com/icon.png",
+    creator: "Gbenga Anifowoshe",
+  },
 };
 
 export default function RootLayout({
