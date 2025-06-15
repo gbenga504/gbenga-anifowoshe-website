@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full flex items-center py-4 px-6 bg-background z-10">
+    <nav className="fixed top-0 left-0 w-full flex items-center py-4 px-6 bg-background/30 z-10 backdrop-blur-xs">
       <span className="italic text-slate-300 text-sm font-semibold">by</span>
       <div className="bg-light-background w-10 h-10 rounded-full ml-3">
         <Image
